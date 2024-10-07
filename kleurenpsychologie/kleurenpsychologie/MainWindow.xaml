@@ -11,13 +11,13 @@
     <Grid x:Name="mainWindow">
         <TextBlock HorizontalAlignment="Left" Margin="28,29,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" FontSize="16"/>
         <Image x:Name="pxlPng" Margin="673,10,10,306" Source="/assets/PXL.png" Stretch="Fill" MouseEnter="pxlPng_MouseEnter" MouseLeave="pxlPng_MouseLeave"/>
-        <Image x:Name="redPng" Margin="52,66,612,276" Source="/assets/Rood.png" Stretch="Fill" MouseEnter="redPng_MouseEnter" MouseLeave="redPng_MouseLeave"/>
-        <Image x:Name="yellowPng" Margin="215,66,450,276" Source="/assets/Geel.png" Stretch="Fill" MouseEnter="yellowPng_MouseEnter" MouseLeave="yellowPng_MouseLeave"/>
-        <Image x:Name="greenPng" Margin="53,172,612,171" Source="/assets/Groen.png" Stretch="Fill" MouseEnter="greenPng_MouseEnter" MouseLeave="greenPng_MouseLeave"/>
+        <Image x:Name="redPng" Margin="52,66,612,276" Source="/assets/Rood.png" Stretch="Fill" MouseEnter="redPng_MouseEnter" MouseLeave="redPng_MouseLeave" MouseDown="redPng_MouseDown"/>
+        <Image x:Name="yellowPng" Margin="215,66,450,276" Source="/assets/Geel.png" Stretch="Fill" MouseEnter="yellowPng_MouseEnter" MouseLeave="yellowPng_MouseLeave" MouseDown="yellowPng_MouseDown"/>
+        <Image x:Name="greenPng" Margin="53,172,612,171" Source="/assets/Groen.png" Stretch="Fill" MouseEnter="greenPng_MouseEnter" MouseLeave="greenPng_MouseLeave" MouseDown="greenPng_MouseDown"/>
         <Image x:Name="bluePng" Margin="215,172,450,171" Source="/assets/Blauw.png" Stretch="Fill" MouseEnter="bluePng_MouseEnter" MouseLeave="bluePng_MouseLeave" MouseDown="bluePng_MouseDown"/>
         <TextBox x:Name="colorCode" HorizontalAlignment="Left" Margin="177,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" IsEnabled="False" Height="33" FontSize="16" TextAlignment="Center"/>
         <Label Content="Kleurencode:" HorizontalAlignment="Left" Margin="53,277,0,0" VerticalAlignment="Top" Width="113" Height="33" FontSize="16"/>
-        <TextBox x:Name="information" HorizontalAlignment="Left" Margin="177,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" IsEnabled="False" Height="33" FontSize="16" TextAlignment="Center"/>
+        <TextBox x:Name="information" HorizontalAlignment="Left" Margin="177,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" IsEnabled="False" Height="66" FontSize="16" TextAlignment="Center"/>
         <Label Content="Informatie:" HorizontalAlignment="Left" Margin="53,315,0,0" VerticalAlignment="Top" Width="113" Height="33" FontSize="16"/>
 
     </Grid>
