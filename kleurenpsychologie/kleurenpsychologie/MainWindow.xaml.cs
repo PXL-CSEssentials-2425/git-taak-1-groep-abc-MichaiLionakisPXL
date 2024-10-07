@@ -32,44 +32,49 @@ namespace kleurenpsychologie
             mainWindow.Background = new SolidColorBrush(Colors.LightGray);
         }
 
-        private void geelPng_MouseEnter(object sender, MouseEventArgs e)
+        private void yellowPng_MouseEnter(object sender, MouseEventArgs e)
         {
             mainWindow.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFF00"));
         }
 
-        private void geelPng_MouseLeave(object sender, MouseEventArgs e)
+        private void yellowPng_MouseLeave(object sender, MouseEventArgs e)
         {
             mainWindow.Background = new SolidColorBrush(Colors.LightGray);
         }
 
-        private void roodPng_MouseEnter(object sender, MouseEventArgs e)
+        private void redPng_MouseEnter(object sender, MouseEventArgs e)
         {
             mainWindow.Background = new SolidColorBrush(Colors.Red);
         }
 
-        private void roodPng_MouseLeave(object sender, MouseEventArgs e)
+        private void redPng_MouseLeave(object sender, MouseEventArgs e)
         {
             mainWindow.Background = new SolidColorBrush(Colors.LightGray);
         }
 
-        private void groenPng_MouseEnter(object sender, MouseEventArgs e)
+        private void greenPng_MouseEnter(object sender, MouseEventArgs e)
         {
             mainWindow.Background = new SolidColorBrush(Colors.Green);
         }
 
-        private void groenPng_MouseLeave(object sender, MouseEventArgs e)
+        private void greenPng_MouseLeave(object sender, MouseEventArgs e)
         {
             mainWindow.Background = new SolidColorBrush(Colors.LightGray);
         }
 
-        private void blauwPng_MouseEnter(object sender, MouseEventArgs e)
+        private void bluePng_MouseEnter(object sender, MouseEventArgs e)
         {
             mainWindow.Background = new SolidColorBrush(Colors.Blue);
         }
 
-        private void blauwPng_MouseLeave(object sender, MouseEventArgs e)
+        private void bluePng_MouseLeave(object sender, MouseEventArgs e)
         {
             mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void bluePng_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCode.Text = "Blauw: #0000FF";
         }
     }
 }
